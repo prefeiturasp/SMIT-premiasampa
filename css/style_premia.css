@@ -1,0 +1,108 @@
+* {
+font-size: 1.05em;
+}
+
+.nav__bg--premia{
+
+background-color: #ffffff !important;
+
+}
+
+.nav__bg--premia .navbar-toggler-icon{
+
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(55, 55, 55, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+.nav-link__premia {
+font-weight: bold;
+color: #3C2963;
+
+}
+
+.nav-link__premia:hover {
+color: #A2177C;
+
+}
+
+.navbar-brand img{ 
+	max-width:50%;
+    height:auto;}
+
+.color-premia{
+color: #A2177C;
+    }
+
+
+#timeline{
+	background-color: #A2177C;
+	color: #fff;
+}
+
+#categories {
+color: #A2177C;
+}
+
+#categories li{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#categories li:first-child {
+	list-style-image: url('assets/cat1.png');
+}
+
+#categories li:child(2) {
+	list-style-image: url('assets/cat2.png');
+}
+
+#categories li:child(3) {
+	list-style-image: url('assets/cat3.png');
+}
+
+#categories li:child(4) {
+	list-style-image: url('assets/cat4.png');
+}
+
+#categories li:child(5) {
+	list-style-image: url('assets/cat5.png');
+}
+
+#categories p {
+	color: #666666;
+}
+
+#inscricoes {
+	background-color: #54368C;
+	color: #fff;
+}
+
+#regulamento {
+	color:#54368C ;
+}
+
+#regulamento a {
+	color: #666666;
+}
+
+#FAQ {
+background-color: #3C2963;
+	color: #fff;
+}
+
+.btn-premia {
+background-color: #fff;
+padding: 0 2em 0 2em ;
+font-size: 1.2em;
+color:#3C2963;
+}
+
+.btn-premia:hover {
+	background-color: #A2177C;
+	border: none;
+}
+
+.ask {
+	font-weight: bold;
+	font-size: 1.2em;
+}

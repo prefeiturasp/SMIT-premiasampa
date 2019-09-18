@@ -10,7 +10,7 @@ body {
   --purple: #A2177C;
   --blue-purple: #54368C;
   --blue: #3C2963;
-  --grey: #7c7c7c;
+  --grey: #585757;
   --soft-grey: #d3d3d3;
 }
 
@@ -47,9 +47,13 @@ body {
   color: var(--purple);
 }
 
+.navbar-brand {
+	max-width: 50%;
+}
+
 .navbar-brand img{ 
 	max-width: 50%;
-  height: auto;  
+  	height: auto;  
 }
 
 .color-premia{
@@ -69,28 +73,37 @@ body {
 }
 
 #categories li{
-	font-weight: bold;
-	font-size: 1.2em;
+	list-style: none;
+	padding: 0 0 2rem 3rem;
+}
+
+#categories li h2 {
+	font-size: 1.5rem;
 }
 
 #categories li:first-child {
-	list-style-image: url('assets/cat1.png');
+	background: url('../assets/cat-2.svg') no-repeat top left;
+	background-size: 2.5rem;
 }
 
-#categories li:child(2) {
-	list-style-image: url('assets/cat2.png');
+#categories li:nth-child(2) {
+	background: url('../assets/cat-1.svg') no-repeat top left;
+	background-size: 2.5rem;
 }
 
-#categories li:child(3) {
-	list-style-image: url('assets/cat3.png');
+#categories li:nth-child(3) {
+	background: url('../assets/cat-3.svg') no-repeat top left;
+	background-size: 2.5rem;
 }
 
-#categories li:child(4) {
-	list-style-image: url('assets/cat4.png');
+#categories li:nth-child(4) {
+	background: url('../assets/cat-4.svg') no-repeat top left;
+	background-size: 2.5rem;
 }
 
-#categories li:child(5) {
-	list-style-image: url('assets/cat5.png');
+#categories li:nth-child(5) {
+	background: url('../assets/cat-5.svg') no-repeat top left;
+	background-size: 2.5rem;
 }
 
 #categories p {
@@ -134,5 +147,19 @@ background-color: #3C2963;
 
 #main-footer h1 {
 	color: var(--grey);
-	font-size: 1rem;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+#main-footer p{
+	margin: 0;
+}
+
+#main-footer a {
+	color: var(--purple);
+	font-weight: 800;
+}
+
+#main-footer img {
+	max-width: 200px;
 }

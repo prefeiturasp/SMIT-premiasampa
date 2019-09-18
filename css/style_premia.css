@@ -1,46 +1,71 @@
-* {
-font-size: 1.05em;
+/* font gotham */
+@import url('../fonts/font-face.css');
+
+body {
+	font-family: "Gotham";
+	font-size: 100%;
 }
 
+:root {
+  --purple: #A2177C;
+  --blue-purple: #54368C;
+  --blue: #3C2963;
+  --grey: #7c7c7c;
+  --soft-grey: #d3d3d3;
+}
+
+.btn-premia {
+  background-color: var(--soft-grey);
+  padding: 0.8rem 2rem;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-premia:hover {
+	background-color: #A2177C;
+	border: none;
+}
+
+/* NAV BAR */
 .nav__bg--premia{
-
-background-color: #ffffff !important;
-
+	background-color: #fff;
 }
 
 .nav__bg--premia .navbar-toggler-icon{
-
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(55, 55, 55, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(55, 55, 55, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .nav-link__premia {
-font-weight: bold;
-color: #3C2963;
-
+  font-weight: 500;
+  color: var(--blue);
+  font-size: 1.5rem;
 }
 
 .nav-link__premia:hover {
-color: #A2177C;
-
+  color: var(--purple);
 }
 
 .navbar-brand img{ 
-	max-width:50%;
-    height:auto;}
+	max-width: 50%;
+  height: auto;  
+}
 
 .color-premia{
-color: #A2177C;
-    }
+  color: var(--purple);
+}
 
+/* TIMELINE */
 
 #timeline{
-	background-color: #A2177C;
+	background-color: var(--purple);
 	color: #fff;
 }
 
+/* CATEGORIAS */
 #categories {
-color: #A2177C;
+  color: var(--purple);
 }
 
 #categories li{
@@ -73,8 +98,17 @@ color: #A2177C;
 }
 
 #inscricoes {
-	background-color: #54368C;
+  padding-bottom: 5rem;
+	background-color: var(--blue-purple);
 	color: #fff;
+}
+
+#inscricoes a {
+  color: var(--blue);
+}
+
+#inscricoes a:hover {
+  color: #fff;
 }
 
 #regulamento {
@@ -90,19 +124,15 @@ background-color: #3C2963;
 	color: #fff;
 }
 
-.btn-premia {
-background-color: #fff;
-padding: 0 2em 0 2em ;
-font-size: 1.2em;
-color:#3C2963;
-}
-
-.btn-premia:hover {
-	background-color: #A2177C;
-	border: none;
-}
 
 .ask {
 	font-weight: bold;
 	font-size: 1.2em;
+}
+
+/* Footer */
+
+#main-footer h1 {
+	color: var(--grey);
+	font-size: 1rem;
 }

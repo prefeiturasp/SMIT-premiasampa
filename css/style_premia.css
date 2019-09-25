@@ -103,6 +103,11 @@ body {
   position: relative;
 }
 
+.cd-timeline-content-img {
+  max-width: 150px;
+  padding-bottom: 1rem;
+} 
+
 .cd-timeline-block {
   position: relative;
   padding: 1.5rem 2rem;

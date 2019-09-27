@@ -202,6 +202,8 @@ body {
 	color: #666666;
 }
 
+/* =-=-=-=-=- inscricoes =-=-=-=-=-= */
+
 #inscricoes {
   padding-bottom: 5rem;
 	background-color: var(--blue-purple);
@@ -216,12 +218,35 @@ body {
   color: #fff;
 }
 
+.icon-subscribe {
+  background: url('../assets/')
+}
+
+/* =-=-=-= regulamento =-=-=-=-= */
+
 #regulamento {
-	color:#54368C ;
+  color:#54368C;
 }
 
 #regulamento a {
-	color: #666666;
+  color: #666666;
+  position: relative;
+  padding: 2rem 0;
+  display: inline-block;
+}
+
+.icon-pdf::before {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url('../assets/pdf-icon.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 100%;
+  margin-left: -40px;
 }
 
 #FAQ {

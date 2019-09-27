@@ -10,31 +10,43 @@
 
   </head>
   <body>
-    <header class="container-fluid">
-      <nav class="navbar navbar-expand-md fixed-top nav__bg--premia ">
-        <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link nav-link__premia" href="./sobre.html">Sobre <span class="sr-only">(você está aqui)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Candidato</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Parceiro</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Edições Anteriores</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    </header>
+      <header>
+          <nav class="navbar navbar-expand-md fixed-top nav__bg--premia ">
+            <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link nav-link__premia" href="sobre.html">Sobre <span class="sr-only">(você está aqui)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Candidato
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                    <a class="dropdown-item disabled" href="#">Download do Manual do Candidato <em>(em breve)</em></a>
+                    <a class="dropdown-item disabled" href="#">Materiais sobre elaboração de projetos <em>(a partir de dezembro)</em></a>
+                    <a class="dropdown-item disabled" href="#">Inscrição para capacitação de detalhamento dos projetos <em>(a partir de dezembro)</em></a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Parceiro
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                    <a class="dropdown-item disabled" href="#">Download Edital de Doações <em>(em breve)</em></a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link__premia" href="#">Edições Anteriores</a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+      </header>
     
     <!-- Timeline -->
     <section class="container-fluid bg-purple" id="about">

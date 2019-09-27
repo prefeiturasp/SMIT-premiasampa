@@ -10,39 +10,51 @@
     <script src="./js/main-script.js"></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md fixed-top nav__bg--premia ">
-        <a class="navbar-brand" href="#"><img src="assets/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link nav-link__premia" href="#">Sobre <span class="sr-only">(você está aqui)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Candidato</a>
-            </li>
+      <header>
+        <nav class="navbar navbar-expand-md fixed-top nav__bg--premia ">
+          <a class="navbar-brand" href="./index.html"><img src="assets/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link nav-link__premia" href="sobre.html">Sobre <span class="sr-only">(você está aqui)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Candidato
+                </a>
+                <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                  <a class="dropdown-item disabled" href="#">Download do Manual do Candidato <em>(em breve)</em></a>
+                  <a class="dropdown-item disabled" href="#">Materiais sobre elaboração de projetos <em>(a partir de dezembro)</em></a>
+                  <a class="dropdown-item disabled" href="#">Inscrição para capacitação de detalhamento dos projetos <em>(a partir de dezembro)</em></a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link__premia " href="#" id="candidatoDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Parceiro
+                </a>
+                <div class="dropdown-menu" aria-labelledby="candidatoDropdown">
+                  <a class="dropdown-item disabled" href="#">Download Edital de Doações <em>(em breve)</em></a>
+                </div>
+              </li>
               <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Parceiro</a>
-            </li>
-              <li class="nav-item">
-              <a class="nav-link nav-link__premia" href="#">Edições Anteriores</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    </header>
+                <a class="nav-link nav-link__premia" href="#">Edições Anteriores</a>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+      </header>
     
-    <!-- Video -->
+    <!-- Video
     <section class="container-fluid pt-5 mt-5" id="video">
       <div class="row pl-5">
         não quero fazer essa parte porque vai ter que usar float e é um saco
         R: acho q n precisa nem existir isso aqui, mas td bem
       </div>
-    </section>
+    </section> -->
     
     <!-- Timeline -->
     <section class="container-fluid" id="timeline">
@@ -56,7 +68,6 @@
         <div class="cd-timeline">
           <div class="cd-timeline-container">
 
-
             <!-- timeline block -->
             <div class="cd-timeline-block cd-timeline-block-active-point">
                 <div class="cd-block-content">
@@ -64,7 +75,7 @@
                     <img class="img-fluid" src="./assets/launch-flag.png" alt="Icone de Bandeira de Largada">
                   </div>
                   <div class="cd-timeline-content col-md-5">
-                    <h1>01/10/2019 a 01/11/2019</h1>
+                    <h1>30/09/2019 a 01/11/2019</h1>
                     <h2>Lançamento do Prêmio e inscrições da Etapa 1.</h2>
                   </div> <!-- cd-timeline__content -->
                 </div>
@@ -126,7 +137,7 @@
             <div class="cd-timeline-block">
                 <div class="cd-block-content">
                   <div class="cd-timeline-content-img col-md-2">
-                    <img class="img-fluid" src="./assets/networking-inactive.png" alt="Icone de Comissão julgadora">
+                    <img class="img-fluid" src="./assets/lecture-inactive.png" alt="Icone de Comissão julgadora">
                   </div>
                   <div class="cd-timeline-content col-md-5">
                     <h1>02/2020</h1>
@@ -159,31 +170,31 @@
       <div class="row py-5">
         <div class="col text-center">
           <h1>Categorias</h1>
-          <h3>(Seujeito a alterações devido ao regulamento)</h3>
+          <h3>(Sujeito a alterações devido ao regulamento)</h3>
         </div>
       </div>
       <div>
         <ul class="timeline col-12 text-left">
           
           <li>
-              <h2>Inovação em Larga Escala</h2>  
-              <p> Para as iniciativas lideradas por servidores municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
+              <h2>Larga Escala</h2>  
+              <p>Para as iniciativas lideradas por agentes públicos municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
           </li>
           <li>
-              <h2>Inovação em Larga Escala</h2>  
-              <p> Para as iniciativas lideradas por servidores municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
+              <h2>Iniciativas Locais</h2>  
+              <p> Para as iniciativas lideradas por agentes públicos municipais alocados em órgãos públicos descentralizados, como subprefeituras, CRAS, CREAS, Escolas Municipais, CEUs, Diretorias Regionais de Educação, Unidades Básicas de Saúde, etc.</p>
           </li>
           <li>
-              <h2>Inovação em Larga Escala</h2>  
-              <p> Para as iniciativas lideradas por servidores municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
+              <h2>Processos Internos</h2>  
+              <p>Para as iniciativas lideradas por agentes públicos municipais que visam à introdução de novas formas ou revisão das formas existentes de realização ou organização dos processos de trabalho, que contribuam para o aprimoramento do desempenho do órgão e de seus servidores.</p>
           </li>
           <li>
-              <h2>Inovação em Larga Escala</h2>  
-              <p> Para as iniciativas lideradas por servidores municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
+              <h2>Politicas Públicas</h2>  
+              <p>Para as iniciativas lideradas por agentes públicos municipais que visam auma nova forma de ação do poder público, no atendimento de uma demanda ou na resposta de um problema, a partir da mobilização de diferentes recursos e de diferentes atores públicos e/ou privados.</p>
           </li>
           <li>
-              <h2>Inovação em Larga Escala</h2>  
-              <p> Para as iniciativas lideradas por servidores municipais em processos internos, serviços ou políticas públicas que tenham representado mudança de larga escala na Prefeitura e/ou na cidade.</p>
+              <h2>Inovação Aberta</h2>  
+              <p>Para iniciativas lideradas por empresas, organizações da sociedade civil, startups e universidades que visem à solução de problemas públicos por meio do uso de dados da Prefeitura Municipal de São Paulo, sejam relativos a processos organizacionais ou a serviços e políticas públicas.</p>
           </li>
           
         </ul>
@@ -196,22 +207,27 @@
         <h1 class="text-center pt-4" > Formulário para inscrições </h1>
       </div>
       <div class="row justify-content-center mt-5">
-        <a class="btn btn-primary btn-premia">inscreva-se clicando aqui</a>
+        <a class="btn btn-primary btn-premia" href="https://docs.google.com/forms/d/e/1FAIpQLSckwbT8jbDnYPfkCFVEuXB3dtOesJoF6B2_pt0vXey30PZgdg/closedform" target="_blank" rel="noopener">
+           <!-- <svg xmlns="http://www.w3.org/2000/svg">
+              <path class="cls-1" d="M0,37.59a5.17,5.17,0,0,0,5.16,5.16H35.54a5.17,5.17,0,0,0,5.17-5.16V28A.84.84,0,1,0,39,28v9.61a3.5,3.5,0,0,1-3.5,3.5H5.16a3.5,3.5,0,0,1-3.49-3.5V9.37A3.5,3.5,0,0,1,5.16,5.88h9.62A.84.84,0,0,0,15.61,5a.83.83,0,0,0-.83-.83H5.16A5.17,5.17,0,0,0,0,9.37Z"/>
+              <path class="cls-1" d="M14.29,21l-2.54,9.18A.84.84,0,0,0,12,31a.83.83,0,0,0,.81.21l9.17-2.54a.85.85,0,0,0,.37-.21L41.62,9.16a4.64,4.64,0,0,0,0-6.54L40.35,1.35a4.62,4.62,0,0,0-6.53,0L14.5,20.67A.78.78,0,0,0,14.29,21ZM35.17,2.71a2.7,2.7,0,0,1,3.83,0L40.27,4a2.71,2.71,0,0,1,0,3.82L39.12,9,34,3.85ZM32.49,5.39l5.1,5.09L21.78,26.29l-5.1-5.09ZM19.74,27.31,14.1,28.87l1.56-5.63Z"/>
+            </svg> -->
+          inscreva-se clicando aqui
+        </a>
       </div>
     </section>
     
-    <!-- Regulamento 
-      <section class="container-fluid text-center" id="regulamento">
-          <div class="row">
-          <div class="col-12 pb-5">
-      <h1 class="text-center pl-5 pt-5 pb-3 " > Regulamento </h1>
-      <a href="#">Regulamento premia sampa 2020.pdf </a> 
-
-      </div>
-
-      </div>
+    <!-- Regulamento --> 
+      <section class="container-fluid" id="regulamento">
+        <div class="row py-4">
+          <div class="col text-center">
+            <h1> Regulamento </h1>
+            <a href="#" class="icon-pdf"> 
+              Regulamento premia sampa 2020
+            </a>
+          </div>
+        </div>
       </section>
-      -->
 
     <!-- FAQ -->
     <section class="container-fluid" id="FAQ">
@@ -221,27 +237,27 @@
               <h1 class="text-center pt-5 pb-5"> FAQ </h1>
               <p class="ask"> 1. Como faço para inscrever meu projeto? </p>
     
-              <p class="answer"> A inscrição é bastante simples. Basta clicar neste link e preencher o formulário de inscrição. Mas atenção: o prazo vai só até 3 de setembro!</p>
+              <p class="answer"> A inscrição é bastante simples. Basta clicar neste <a href="https://docs.google.com/forms/d/e/1FAIpQLSckwbT8jbDnYPfkCFVEuXB3dtOesJoF6B2_pt0vXey30PZgdg/" target="_blank" rel="noopener">link</a> e preencher o formulário de inscrição. Mas atenção: o prazo vai só até <strong>1 de novembro!</strong></p>
     
               <p class="ask">2. Qual o prazo de inscrição?</p>
     
-              <p class="answer">Você tem até às 23h59 do dia X de XXXXX para preencher o formulário de inscrição.
-              Após uma verificação de elegibilidade (adequação ao regulamento), você terá até às 23h59 do  dia Xº de XXXXX para enviar um detalhamento do projeto, em formulário a ser disponibilizado oportunamente neste site.</p>
+              <p class="answer">Você tem até às 23h59 do dia <strong>1 de novembro</strong> para preencher o formulário de inscrição.
+                  Após uma verificação de elegibilidade (adequação ao regulamento), você terá até às 23h59 do  dia <strong>20 de dezembro</strong> para enviar um detalhamento do projeto, em formulário a ser disponibilizado oportunamente neste site.</p>
     
               <p class="ask">3. O que são as duas fases de inscrição?</p>
     
-              <p class="answer">A Fase 1 é a inscrição do projeto em si, no qual pedimos apenas algumas informações mais básicas sobre o projeto e sobre os membros da equipe. Você tem até o dia X de XXXXX para preencher o formulário de inscrição.</p>
+              <p class="answer">A Fase 1 é a inscrição do projeto em si, no qual pedimos apenas algumas informações mais básicas sobre o projeto e sobre os membros da equipe. Você tem até o dia 1 de novembro para preencher o formulário de inscrição.</p>
     
-              <p class="answer">Após uma verificação de elegibilidade (adequação ao regulamento), você terá até o dia Xº de XXXXX para enviar um detalhamento do projeto (Fase 2), em formulário a ser disponibilizado oportunamente neste site.</p>
+              <p class="answer">Após uma verificação de elegibilidade (adequação ao regulamento), você terá até o dia 20 de dezembro para enviar um detalhamento do projeto (Fase 2), em formulário a ser disponibilizado oportunamente neste site.</p>
     
               <p class="ask">5. Como o meu projeto será avaliado?</p>
     
-              <p class="answer">Os projetos serão avaliados segundo os critérios de avaliação previstos no Edital. São esses: Inovação, Resultados/impacto,Participação, Eficiência, Transparência, Continuidade, Replicabilidade e Parcerias. </p>
+              <p class="answer">Os projetos serão avaliados segundo os critérios de avaliação previstos no Edital. São esses: Inovação, Resultados/impacto,Participação, Eficiência, Transparência, Continuidade, Replicabilidade e Parcerias.</p>
     
               <p class="ask">4. Quem fará o julgamento dos projetos?</p>
     
               <p class="answer">Nas Etapas 1 e 2, ficará a cargo da Banca Técnica, constituída pela Comissão Organizadora. 
-              Na Etapa 3, que define os vencedores, ficará a cargo da Comissão julgadora, constituída de especialistas em diversas áreas sem vínculo empregatício com a gestão pública municipal.</p>
+                  Na Etapa 3, que define os vencedores, ficará a cargo da Comissão julgadora, constituída de especialistas em diversas áreas sem vínculo empregatício com a gestão pública municipal.</p>
     
               <p class="ask">6. Eu já participei ano passado mas não fui vencedor. Posso participar novamente?</p>
     

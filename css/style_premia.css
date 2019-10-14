@@ -86,6 +86,16 @@ body {
 
 /* =-=-=-= HOME =-=-=-=-=- */
 
+/* VIDEO */
+
+#video {
+  background: var(--dark-purple);
+}
+
+#video video{
+  max-width: 100%;
+}
+
 /* TIMELINE */
 
 #timeline, .bg-purple{

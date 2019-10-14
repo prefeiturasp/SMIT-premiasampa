@@ -4,7 +4,7 @@
 body {
 	font-family: "Gotham";
 	font-size: 100%;
-	padding-top: 100px;
+  padding-top: 100px;
 }
 
 :root {
@@ -86,7 +86,10 @@ body {
 
 /* =-=-=-= HOME =-=-=-=-=- */
 
-/* VIDEO */
+/* HEADER */
+#main-header {
+  background: #fff;
+}
 
 #video {
   background: var(--dark-purple);

@@ -106,9 +106,9 @@ body {
 	color: #fff;
 }
 
-.cd-timeline {
+/* .cd-timeline {
   /* some text here one day */
-}
+/*}  */
 
 .cd-timeline-container {
   padding-top: 4rem;
@@ -277,4 +277,9 @@ background-color: #3C2963;
 
 #about p {
 	font-size: 1.2rem;
+}
+
+/* =-=-=-= MATERIAIS DE APOIO =-=-=-= */
+#dica-1 {
+  padding-top: 70px;
 }
